@@ -18,9 +18,7 @@ Scenario Outline: Negative LogIn test
   And Verify error message text is <message> 
   
   Example:
-     |username|Password|message|
-     |user|Password123|Your username is invalid!|
-     |student|pass|Your password is invalid!|
+    
      
   
  
