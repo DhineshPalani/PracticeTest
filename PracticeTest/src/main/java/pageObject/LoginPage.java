@@ -20,6 +20,9 @@ public class LoginPage
 	
 	
 	//Actions
+	public void navigateToLoginPage() {
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+	}
 	public void enterUsername(String username) {
 		driver.findElement(usernameField).sendKeys(username);
 	}
