@@ -17,12 +17,12 @@ public class Hooks {
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
 	}
 
-	//@After
-	//public void tearDown() {
-		//if (driver != null) {
-			//driver.quit();
-		//}
-	//}
+	@After
+	public void tearDown() {
+		if (driver != null) {
+			driver.quit();
+		}
+	}
 
 
 }
